@@ -1,3 +1,4 @@
+//Baseado em https://www.tutorialspoint.com/apache_kafka/apache_kafka_simple_producer_example.htm
 package messaging.simple;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -8,7 +9,6 @@ import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.*;
 
-//Baseado em https://www.tutorialspoint.com/apache_kafka/apache_kafka_simple_producer_example.htm
 public class SimpleProducer {
     public static void main(String[] args) throws InterruptedException {
         if(args.length == 0){

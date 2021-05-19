@@ -1,3 +1,4 @@
+//Baseado em https://www.tutorialspoint.com/apache_kafka/apache_kafka_simple_producer_example.htm
 package messaging.simple;
 
 import java.time.Duration;
@@ -10,7 +11,6 @@ import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
-//Baseado em https://www.tutorialspoint.com/apache_kafka/apache_kafka_simple_producer_example.htm
 public class SimpleConsumer {
     public static void main(String[] args) {
         if(args.length == 0){
