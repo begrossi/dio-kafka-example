@@ -49,8 +49,6 @@ public class SimpleConsumer {
                         // print the offset,key and value for the consumer records.
                         System.out.printf("offset = %d, key = %s, value = %s\n", record.offset(), record.key(), record.value());
                     }
-//                    Thread.sleep(5000);
-//                    System.out.println("Processou "+records.count()+" records");
                 }
             }
         }
