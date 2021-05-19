@@ -1,0 +1,1 @@
+mvn compile exec:java -Dexec.mainClass="messaging.simple.SimpleConsumer" -Dexec.args="teste grupo2"
